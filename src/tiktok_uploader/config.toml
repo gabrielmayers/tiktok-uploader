@@ -38,7 +38,7 @@ user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 	iframe = "//iframe"
 	
 	upload_video = "//input[@type='file']"
-	upload_in_progress = "//*[.='Cancel']"
+	upload_in_progress = "//*[.='Cancelar']"
 	upload_confirmation = "//video" 
 	process_confirmation = "//img[@draggable='false']"
 
@@ -57,7 +57,7 @@ user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 	stitch = "//label[.='Stitch']/following-sibling::div/input"
 
 	post = "//div[contains(@class, 'btn-post')]"
-	post_confirmation = "//div[.='Your videos are being uploaded to TikTok!']"
+	post_confirmation = "//div[.='Seus vídeos estão sendo carregados para o TikTok!']"
 
 	[selectors.schedule]
 	switch = "//*[@id='tux-3']"
